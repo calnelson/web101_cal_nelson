@@ -1,0 +1,77 @@
+header {
+    border: 1px solid black; 
+}
+
+section {
+    border: 1px solid black; 
+    margin: 50px; 
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    justify-content: center;
+    
+    
+}
+
+.image {
+    height: 300px; 
+    width: 300px; 
+    border-radius: 100%;
+}
+
+/* .image {
+    background-image: url(Resume_photo.jpg);
+    height: 200px; 
+    
+ 
+} */
+
+.experience-hr {
+    margin: 50px; 
+    background-color: #C5D2EE; 
+    height: 10px; 
+}
+
+.experience-middle{
+
+    margin: 50px; 
+    background-color: #C5D2EE; 
+    height: 50px; 
+
+}
+
+hr:after {
+    content: "EXPERIENCE";
+    top: 13px;
+}
+
+body {
+
+    text-align: center;
+}
+
+
+footer {
+    border: 1px solid black; 
+    margin: 50px; 
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.right-div { 
+
+    
+    border: 1px solid black; 
+    
+
+}
+
+.left-div {
+    
+    border: 1px solid black;
+    
+    
+}
+
+article {
+    border: 1px black solid;
+}
